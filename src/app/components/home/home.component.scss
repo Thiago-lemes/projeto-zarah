@@ -13,6 +13,10 @@ hr {
   height: 2px;
   background-image: linear-gradient(to right, transparent, #ccc, transparent);
 }
+span {
+  color: #f28963;
+  font-weight: 500;
+}
 .circle {
   background-color: #e7a75f;
   border-radius: 50%;
@@ -43,5 +47,8 @@ hr {
   font-size: 18px;
 }
 .step-text {
+  margin-top: 2em;
+}
+.step-lead{
   margin-top: 2em;
 }
