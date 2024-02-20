@@ -1,10 +1,14 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand"  href="/home">
-      <img src="../../../assets/image/logos/icone.png" alt="zarah logo" height="80"/>
+    <a class="navbar-brand" href="/home">
+      <img
+        src="../../../assets/image/logos/icone.png"
+        alt="zarah logo"
+        height="80"
+      />
     </a>
     <button
-      class="navbar-toggler"
+class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarScroll"
@@ -17,20 +21,21 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
         <li class="nav-item">
-          <a class="nav-link  " aria-current="page" href="/home">Inicio</a>
+          <a class="nav-link" aria-current="page" href="/home">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">Sobre Nós</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/register">Quero Fazer Parte</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/project">Projetos</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contato</a>
-        </li>
+        <div class="dropdown">
+          <a class="btn dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Projetos
+          </a>
+          <ul class="dropdown-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="/elevate">Elevate</a>
+            </li>
+          </ul>
+        </div>
       </ul>
     </div>
   </div>
