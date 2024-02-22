@@ -1,18 +1,35 @@
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-span{
- color: #58A565;
-  font-weight: 500;}
+
+span {
+  color: #58a565;
+  font-weight: 500;
+}
+
 hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, transparent, #ccc, transparent);
 }
+
 .step-text {
   margin-top: 2em;
   line-height: 2.5;
 }
-.text-plant{
+
+.text-plant {
   color: #f28963;
+}
+
+.efect {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 2s;
 }
