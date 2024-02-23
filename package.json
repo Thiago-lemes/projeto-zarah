@@ -7,7 +7,8 @@
     "build": "ng build --output-path docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ZARAH-FRONT": "node dist/zarah-front/server/server.mjs"
+    "serve:ssr:ZARAH-FRONT": "node dist/zarah-front/server/server.mjs",
+    "deploy:ghdocs": "ng build --configuration=production --output-path docs --base-href /projeto-zarah/"
   },
   "private": true,
   "dependencies": {
